@@ -11,7 +11,7 @@ Class Thamin{
       discount_perc = 0.15;
     }
     else{
-    discount_perc = 0;
+    discount_perc = 0.05;
     }
     
     bill = order_total - (order_total * discount_perc);
