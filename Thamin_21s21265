@@ -4,14 +4,14 @@ Class Thamin{
     
     if(order_total>100){
       //Give 25% discount to the customer if order amount is geater than 100 OMR
-      discount_perc = 0.25;
+      discount_perc = 0.20;
     }
     elseif(order_total>80){
       //Give 15% discount to the customer if order amount is geater than 100 OMR
-      discount_perc = 0.15;
+      discount_perc = 0.10;
     }
     else{
-    discount_perc = 0.05;
+    discount_perc = 0.00;
     }
     
     bill = order_total - (order_total * discount_perc);
