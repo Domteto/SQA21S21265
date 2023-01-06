@@ -1,0 +1,15 @@
+Class Thamin{
+  Public static void main(String[] args){
+    double order_total,discount_perc,bill;
+    
+    if(order_total>100){
+      //Give 25% discount to the customer if order amount is geater than 100 OMR
+      discount_perc = 0.25;
+    }
+    else{
+    discount_perc = 0;
+    }
+    
+    bill = order_total - (order_total * discount_perc);
+  }
+}
